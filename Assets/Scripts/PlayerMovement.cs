@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -33,10 +34,14 @@ public class PlayerMovement : MonoBehaviour
         rb.freezeRotation = true;
     }
 
-    // Update is called once per frame
     void Update()
     {
+        if (GameManager.pegsActive["start"]) {
+            PlayerMove();
+        }
+    }
 
+    void PlayerMove() {
         if (GameManager.pegsActive["right"] && Input.GetAxis("Horizontal") > 0)
         {
             movement.x = Input.GetAxisRaw("Horizontal");
@@ -57,7 +62,6 @@ public class PlayerMovement : MonoBehaviour
         {
             movement.y = Input.GetAxisRaw("Vertical");
         }
-
 
         movement.Normalize();
 
@@ -100,6 +104,37 @@ public class PlayerMovement : MonoBehaviour
             Debug.Log("Player is dead");
             killPlayer();
             // }
+        }
+
+        if (other.gameObject.CompareTag("goal"))
+        {
+
+            // Player collided with the DeathObstacle
+            // if (gameObject != null)
+            // {
+            Debug.Log("Next Level");
+            LoadNextLevel();
+            // }
+        }
+
+    }
+
+
+    private void LoadNextLevel()
+    {
+        // Assuming you want to load the next scene in the build order
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        int nextSceneIndex = currentSceneIndex + 1;
+
+        // Check if the next scene index is within the range of available scenes
+        if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
+        {
+            SceneManager.LoadScene(nextSceneIndex);
+        }
+        else
+        {
+            Debug.Log("No more levels to load");
+            // Optionally, you could load a 'game completed' scene or return to the main menu
         }
     }
 }

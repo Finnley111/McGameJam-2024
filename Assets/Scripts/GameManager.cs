@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
 	{"right", false},
     {"left", false},
     {"dash", false},
+    {"start", false},
     };
 
     public void Awake() {

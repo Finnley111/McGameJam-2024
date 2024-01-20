@@ -957,6 +957,63 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d8a46e11f729410b9e72e3871399feb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &895954476
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 27631080466867390, guid: 63824287f7cf9214baf88ee7038afb51, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.568631
+      objectReference: {fileID: 0}
+    - target: {fileID: 27631080466867390, guid: 63824287f7cf9214baf88ee7038afb51, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.2400386
+      objectReference: {fileID: 0}
+    - target: {fileID: 27631080466867390, guid: 63824287f7cf9214baf88ee7038afb51, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 27631080466867390, guid: 63824287f7cf9214baf88ee7038afb51, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 27631080466867390, guid: 63824287f7cf9214baf88ee7038afb51, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 27631080466867390, guid: 63824287f7cf9214baf88ee7038afb51, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 27631080466867390, guid: 63824287f7cf9214baf88ee7038afb51, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 27631080466867390, guid: 63824287f7cf9214baf88ee7038afb51, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 27631080466867390, guid: 63824287f7cf9214baf88ee7038afb51, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 27631080466867390, guid: 63824287f7cf9214baf88ee7038afb51, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578509255810465010, guid: 63824287f7cf9214baf88ee7038afb51, type: 3}
+      propertyPath: m_Name
+      value: Goal
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 63824287f7cf9214baf88ee7038afb51, type: 3}
 --- !u!4 &999366880 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7796506106772779878, guid: 3d8b4138ce16c3e4285cfd2b67dd2187, type: 3}
@@ -1470,6 +1527,10 @@ PrefabInstance:
     - target: {fileID: 5171929289341630474, guid: 3d8b4138ce16c3e4285cfd2b67dd2187, type: 3}
       propertyPath: pegID.y
       value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171929289341630474, guid: 3d8b4138ce16c3e4285cfd2b67dd2187, type: 3}
+      propertyPath: isFinalPeg
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7796506106772779878, guid: 3d8b4138ce16c3e4285cfd2b67dd2187, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2084,6 +2145,7 @@ MonoBehaviour:
   CurrentEndPoint: {fileID: 0}
   PegToInstantiate: {fileID: 8145294649090725501, guid: 3d8b4138ce16c3e4285cfd2b67dd2187, type: 3}
   PegParent: {fileID: 1233657680}
+  wireAmountLeft: 15
 --- !u!1001 &6939238870487317810
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2166,3 +2228,4 @@ SceneRoots:
   - {fileID: 1233657680}
   - {fileID: 1844037478}
   - {fileID: 736353383}
+  - {fileID: 895954476}
