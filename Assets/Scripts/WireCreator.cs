@@ -16,14 +16,17 @@ public class WireCreator : MonoBehaviour, IPointerDownHandler
     public Peg CurrentStartPoint;
     public Peg CurrentEndPoint;
     public GameObject PegToInstantiate;
+    public GameObject OutletToInstantiate;
     public Transform PegParent;
 
 
 
     public void OnPointerDown(PointerEventData eventData) {
         if (WireCreationStarted == false) {
-            WireCreationStarted = true;
-            StartWireCreation(Vector2Int.RoundToInt(Camera.main.ScreenToWorldPoint(eventData.position)));
+            if (GameManager.AllPoints.ContainsKey(Vector2Int.RoundToInt(Camera.main.ScreenToWorldPoint(eventData.position)))) {
+                WireCreationStarted = true;
+                StartWireCreation(Vector2Int.RoundToInt(Camera.main.ScreenToWorldPoint(eventData.position)));
+            }
         }
         else {
             if (eventData.button == PointerEventData.InputButton.Left) {
