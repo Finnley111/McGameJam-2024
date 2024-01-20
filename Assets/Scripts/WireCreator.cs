@@ -66,6 +66,7 @@ public class WireCreator : MonoBehaviour, IPointerDownHandler
     }
 
     void FinishWireCreation() {
+        CurrentWire.boxCollider.size = CurrentWire.wireSpriteRenderer.size;
         if (GameManager.AllPoints.ContainsKey(CurrentEndPoint.transform.position)) {
             Debug.Log("End Point Has Peg");
             Destroy(CurrentEndPoint.gameObject);
@@ -95,7 +96,6 @@ public class WireCreator : MonoBehaviour, IPointerDownHandler
             CurrentEndPoint.transform.position = (Vector2)Vector2Int.FloorToInt(clampedPos);
             CurrentEndPoint.pegID = CurrentEndPoint.transform.position;
             CurrentWire.UpdatingCreatingWire(CurrentEndPoint.transform.position);
-
         }
     }
 }
