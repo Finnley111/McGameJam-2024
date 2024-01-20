@@ -41,3 +41,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 3698428533
+    locked: 0
+  - name: Circuit Board
+    uniqueID: 333928167
+    locked: 0
+  - name: Pegs
+    uniqueID: 4186385491
+    locked: 0
+  - name: Objects
+    uniqueID: 3640587697
+    locked: 0
+  - name: Player
+    uniqueID: 379906599
+    locked: 0
