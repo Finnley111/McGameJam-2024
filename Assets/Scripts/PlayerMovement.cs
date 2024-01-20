@@ -17,33 +17,47 @@ public class PlayerMovement : MonoBehaviour
     private float dashCounter;
     private float dashCoolCounter;
 
-    void Start() {
+    public bool isDead = true;
+
+
+    public void killPlayer()
+    {
+        isDead = true;
+        gameObject.SetActive(false);
+    }
+
+    void Start()
+    {
         activeMoveSpeed = moveSpeed;
         rb = this.GetComponent<Rigidbody2D>();
         rb.freezeRotation = true;
     }
-    
+
     // Update is called once per frame
     void Update()
     {
 
-        if(GameManager.pegsActive["right"] && Input.GetAxis("Horizontal") > 0) {
+        if (GameManager.pegsActive["right"] && Input.GetAxis("Horizontal") > 0)
+        {
             movement.x = Input.GetAxisRaw("Horizontal");
 
         }
-        else if(GameManager.pegsActive["left"] && Input.GetAxis("Horizontal") < 0) {
+        else if (GameManager.pegsActive["left"] && Input.GetAxis("Horizontal") < 0)
+        {
             movement.x = Input.GetAxisRaw("Horizontal");
         }
         //movement.x = Input.GetAxisRaw("Horizontal");
-        
-        if(GameManager.pegsActive["up"] && Input.GetAxis("Vertical") > 0) {
+
+        if (GameManager.pegsActive["up"] && Input.GetAxis("Vertical") > 0)
+        {
             movement.y = Input.GetAxisRaw("Vertical");
 
         }
-        else if(GameManager.pegsActive["down"] && Input.GetAxis("Vertical") < 0) {
+        else if (GameManager.pegsActive["down"] && Input.GetAxis("Vertical") < 0)
+        {
             movement.y = Input.GetAxisRaw("Vertical");
         }
-        
+
 
         movement.Normalize();
 
@@ -75,7 +89,17 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter2D(Collider2D other) {
-        Debug.Log("Jaja");
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("obstacle"))
+        {
+
+            // Player collided with the DeathObstacle
+            // if (gameObject != null)
+            // {
+            Debug.Log("Player is dead");
+            killPlayer();
+            // }
+        }
     }
 }
