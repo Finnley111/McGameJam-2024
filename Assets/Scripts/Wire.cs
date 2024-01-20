@@ -21,7 +21,5 @@ public class Wire : MonoBehaviour
 
         float length = dir.magnitude;
         wireSpriteRenderer.size = new Vector2(length, wireSpriteRenderer.size.y);
-
-        boxCollider.size = wireSpriteRenderer.size;
     }
 }

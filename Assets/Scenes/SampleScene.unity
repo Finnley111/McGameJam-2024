@@ -843,6 +843,7 @@ MonoBehaviour:
   dashSpeed: 15
   dashLength: 0.2
   dashCooldown: 0.1
+  isDead: 1
 --- !u!4 &732659356 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7796506106772779878, guid: 3d8b4138ce16c3e4285cfd2b67dd2187, type: 3}
