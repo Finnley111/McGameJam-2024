@@ -5,6 +5,13 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static Dictionary<Vector2, Peg> AllPoints = new Dictionary<Vector2, Peg>();
+    public static Dictionary<string, bool> pegsActive = new Dictionary<string, bool>(){
+	{"up", false},
+	{"down", false},
+	{"right", false},
+    {"left", false},
+    {"dash", false},
+    };
 
     public void Awake() {
         AllPoints.Clear();

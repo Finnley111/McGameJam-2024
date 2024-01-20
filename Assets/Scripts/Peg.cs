@@ -12,6 +12,9 @@ public class Peg : MonoBehaviour
     public Rigidbody2D rbd; 
     public bool isPlug; 
     public int connections = 0;
+    public bool isActivated = false;
+    public string pegType;
+    
 
     void Start() {
         if (Runtime == false) {
@@ -36,5 +39,7 @@ public class Peg : MonoBehaviour
 
     private void OnTriggerEnter2D() {
         connections += 1;
+        isActivated = true;
+        GameManager.pegsActive[pegType] = true;
     }
 }

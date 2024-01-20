@@ -26,14 +26,30 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
+
+        if(GameManager.pegsActive["right"] && Input.GetAxis("Horizontal") > 0) {
+            movement.x = Input.GetAxisRaw("Horizontal");
+
+        }
+        else if(GameManager.pegsActive["left"] && Input.GetAxis("Horizontal") < 0) {
+            movement.x = Input.GetAxisRaw("Horizontal");
+        }
+        //movement.x = Input.GetAxisRaw("Horizontal");
+        
+        if(GameManager.pegsActive["up"] && Input.GetAxis("Vertical") > 0) {
+            movement.y = Input.GetAxisRaw("Vertical");
+
+        }
+        else if(GameManager.pegsActive["down"] && Input.GetAxis("Vertical") < 0) {
+            movement.y = Input.GetAxisRaw("Vertical");
+        }
+        
 
         movement.Normalize();
 
         rb.velocity = movement * activeMoveSpeed;
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && GameManager.pegsActive["dash"])
         {
             if (dashCoolCounter <= 0 && dashCoolCounter <= 0)
             {
