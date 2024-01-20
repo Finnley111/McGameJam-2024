@@ -31,7 +31,7 @@ public class WireCreator : MonoBehaviour, IPointerDownHandler
                         StartWireCreation(Vector2Int.RoundToInt(Camera.main.ScreenToWorldPoint(eventData.position)));
                     }
                 }
-                else if (currentPeg.connections >= 1) {
+                else if (currentPeg.connections == 1) {
                     WireCreationStarted = true;
                     StartWireCreation(Vector2Int.RoundToInt(Camera.main.ScreenToWorldPoint(eventData.position)));
                 }
