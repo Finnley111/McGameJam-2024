@@ -22,7 +22,7 @@ public class WireCreator : MonoBehaviour, IPointerDownHandler
 
 
     public void OnPointerDown(PointerEventData eventData) {
-        if (wireAmountLeft > 0) {
+        if (wireAmountLeft > 0 && GameManager.pegsActive["start"] == false) {
             wireCreationLogic(eventData);
         }
         if (WireCreationStarted) {
