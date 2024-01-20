@@ -22,11 +22,22 @@ public class WireCreator : MonoBehaviour, IPointerDownHandler
 
     public void OnPointerDown(PointerEventData eventData) {
         if (WireCreationStarted == false) {
-            if (GameManager.AllPoints.ContainsKey(Vector2Int.RoundToInt(Camera.main.ScreenToWorldPoint(eventData.position)))) {
-                WireCreationStarted = true;
-                StartWireCreation(Vector2Int.RoundToInt(Camera.main.ScreenToWorldPoint(eventData.position)));
+            Vector2Int eventDataPos = Vector2Int.RoundToInt(Camera.main.ScreenToWorldPoint(eventData.position));
+            if (GameManager.AllPoints.ContainsKey(eventDataPos)) {
+                Peg currentPeg = GameManager.AllPoints[eventDataPos];
+                if (currentPeg.isPlug) {
+                    if (currentPeg.connections == 0) {
+                        WireCreationStarted = true;
+                        StartWireCreation(Vector2Int.RoundToInt(Camera.main.ScreenToWorldPoint(eventData.position)));
+                    }
+                }
+                else if (currentPeg.connections >= 1) {
+                    WireCreationStarted = true;
+                    StartWireCreation(Vector2Int.RoundToInt(Camera.main.ScreenToWorldPoint(eventData.position)));
+                }
             }
         }
+        
         else {
             if (eventData.button == PointerEventData.InputButton.Left) {
                 if (GameManager.AllPoints.ContainsKey(CurrentEndPoint.transform.position)) {
