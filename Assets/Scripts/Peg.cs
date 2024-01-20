@@ -11,6 +11,7 @@ public class Peg : MonoBehaviour
     public Vector2 pegID;
     public Rigidbody2D rbd; 
     public bool isPlug; 
+    public bool isFinalPeg;
     public int connections = 0;
     public bool isActivated = false;
     public string pegType;
@@ -41,5 +42,9 @@ public class Peg : MonoBehaviour
         connections += 1;
         isActivated = true;
         GameManager.pegsActive[pegType] = true;
+
+        if (isFinalPeg) {
+            GameManager.pegsActive["start"] = true;
+        }
     }
 }

@@ -103,10 +103,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startPosition: {x: 0, y: 0}
   wireSpriteRenderer: {fileID: 1533825820820468036}
-  maxLength: 3
+  maxLength: 20
   boxCollider: {fileID: -8903605203981928089}
   startJoint: {fileID: 4899344446681325835}
   endJoint: {fileID: 4261291978768002545}
+  length: 0
 --- !u!50 &2893789844846371216
 Rigidbody2D:
   serializedVersion: 4

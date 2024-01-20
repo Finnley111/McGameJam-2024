@@ -34,10 +34,14 @@ public class PlayerMovement : MonoBehaviour
         rb.freezeRotation = true;
     }
 
-    // Update is called once per frame
     void Update()
     {
+        if (GameManager.pegsActive["start"]) {
+            PlayerMove();
+        }
+    }
 
+    void PlayerMove() {
         if (GameManager.pegsActive["right"] && Input.GetAxis("Horizontal") > 0)
         {
             movement.x = Input.GetAxisRaw("Horizontal");
@@ -58,7 +62,6 @@ public class PlayerMovement : MonoBehaviour
         {
             movement.y = Input.GetAxisRaw("Vertical");
         }
-
 
         movement.Normalize();
 
