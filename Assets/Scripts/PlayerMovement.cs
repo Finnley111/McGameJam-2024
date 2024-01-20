@@ -17,15 +17,34 @@ public class PlayerMovement : MonoBehaviour
     private float dashCounter;
     private float dashCoolCounter;
 
-    void Start() {
+    public bool isDead = true;
+
+
+    public void killPlayer()
+    {
+        isDead = true;
+        gameObject.SetActive(false);
+    }
+
+    void Start()
+    {
         activeMoveSpeed = moveSpeed;
         rb = this.GetComponent<Rigidbody2D>();
         rb.freezeRotation = true;
     }
-    
+
     // Update is called once per frame
     void Update()
     {
+        // Debug.Log(isDead);
+
+        if (isDead)
+        {
+            // Hide character
+            // Debug.Log("Player is dead");
+            return;
+        }
+
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
@@ -59,7 +78,17 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter2D(Collider2D other) {
-        Debug.Log("Jaja");
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("obstacle"))
+        {
+
+            // Player collided with the DeathObstacle
+            // if (gameObject != null)
+            // {
+            Debug.Log("Player is dead");
+            killPlayer();
+            // }
+        }
     }
 }
