@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,6 +10,8 @@ public class Peg : MonoBehaviour
     public List<Wire> ConnectedWires;
     public Vector2 pegID;
     public Rigidbody2D rbd; 
+    public bool isPlug; 
+    public int connections = 0;
 
     void Start() {
         if (Runtime == false) {
@@ -31,7 +34,7 @@ public class Peg : MonoBehaviour
         }
     }
 
-    private void OnTriggerStay2D() {
-        Debug.Log("I am being hit");
+    private void OnTriggerEnter2D() {
+        connections += 1;
     }
 }
