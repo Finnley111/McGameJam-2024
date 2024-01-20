@@ -16,7 +16,6 @@ public class WireCreator : MonoBehaviour, IPointerDownHandler
     public Peg CurrentStartPoint;
     public Peg CurrentEndPoint;
     public GameObject PegToInstantiate;
-    public GameObject OutletToInstantiate;
     public Transform PegParent;
 
 
@@ -30,7 +29,9 @@ public class WireCreator : MonoBehaviour, IPointerDownHandler
         }
         else {
             if (eventData.button == PointerEventData.InputButton.Left) {
-                FinishWireCreation();
+                if (GameManager.AllPoints.ContainsKey(CurrentEndPoint.transform.position)) {
+                    FinishWireCreation();
+                }
             }
             else if (eventData.button == PointerEventData.InputButton.Right) {
                 WireCreationStarted = false;

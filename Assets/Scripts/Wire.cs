@@ -7,7 +7,10 @@ public class Wire : MonoBehaviour
 {
     public Vector2 startPosition;
     public SpriteRenderer wireSpriteRenderer;
-    public float maxLength = 1f;
+    public float maxLength;
+    public BoxCollider2D boxCollider;
+    public HingeJoint2D startJoint;
+    public HingeJoint2D endJoint;
     // Start is called before the first frame update
     public void UpdatingCreatingWire(Vector2 ToPosition) {
         transform.position = (ToPosition + startPosition) / 2;
@@ -18,5 +21,7 @@ public class Wire : MonoBehaviour
 
         float length = dir.magnitude;
         wireSpriteRenderer.size = new Vector2(length, wireSpriteRenderer.size.y);
+
+        boxCollider.size = wireSpriteRenderer.size;
     }
 }

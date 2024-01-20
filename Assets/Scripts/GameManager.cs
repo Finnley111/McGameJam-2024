@@ -10,4 +10,9 @@ public class GameManager : MonoBehaviour
         AllPoints.Clear();
     }
 
+    [ContextMenu("Test Gameplay")]
+    public void Play() {
+        Time.timeScale = 1;
+    }
+
 }
