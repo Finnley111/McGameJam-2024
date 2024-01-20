@@ -1528,6 +1528,10 @@ PrefabInstance:
       propertyPath: pegID.y
       value: -5
       objectReference: {fileID: 0}
+    - target: {fileID: 5171929289341630474, guid: 3d8b4138ce16c3e4285cfd2b67dd2187, type: 3}
+      propertyPath: isFinalPeg
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7796506106772779878, guid: 3d8b4138ce16c3e4285cfd2b67dd2187, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7
@@ -2141,6 +2145,7 @@ MonoBehaviour:
   CurrentEndPoint: {fileID: 0}
   PegToInstantiate: {fileID: 8145294649090725501, guid: 3d8b4138ce16c3e4285cfd2b67dd2187, type: 3}
   PegParent: {fileID: 1233657680}
+  wireAmountLeft: 15
 --- !u!1001 &6939238870487317810
 PrefabInstance:
   m_ObjectHideFlags: 0
