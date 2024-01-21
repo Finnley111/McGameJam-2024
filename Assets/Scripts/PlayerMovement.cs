@@ -32,7 +32,12 @@ public class PlayerMovement : MonoBehaviour
     {
         isDead = true;
         gameObject.SetActive(false);
-        GameManager.wireAmountLeft = 20f;
+        if (SceneManager.GetActiveScene().buildIndex == 1){
+                GameManager.wireAmountLeft = 10f;
+        }
+        else if (SceneManager.GetActiveScene().buildIndex == 2){
+                GameManager.wireAmountLeft = 5f;
+        }
     }
 
     void Start()
@@ -42,6 +47,8 @@ public class PlayerMovement : MonoBehaviour
         rb.freezeRotation = true;
         originalLayer = gameObject.layer;
         dashingLayer = LayerMask.NameToLayer("Dashing");
+
+
     }
 
     void Update()
@@ -189,11 +196,22 @@ public class PlayerMovement : MonoBehaviour
     {
         // Assuming you want to load the next scene in the build order
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        Debug.Log(currentSceneIndex);
         int nextSceneIndex = currentSceneIndex + 1;
 
         // Check if the next scene index is within the range of available scenes
         if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
         {
+            if (SceneManager.GetActiveScene().buildIndex + 1 == 1){
+                Debug.Log("Level 1 Loaded ");
+                GameManager.wireAmountLeft = 10f;
+            }
+            if (SceneManager.GetActiveScene().buildIndex + 1 == 2){
+                Debug.Log("Level 2 Loaded ");
+                GameManager.wireAmountLeft = 5f;
+            }
+            
+            
             SceneManager.LoadScene(nextSceneIndex);
             GameManager.pegsActive = new Dictionary<string, bool>(){
             {"up", false},
@@ -204,7 +222,10 @@ public class PlayerMovement : MonoBehaviour
             {"start", false},
             {"belt", false},
             };
-            GameManager.wireAmountLeft = 20f;
+
+            
+
+            
         }
         else
         {
