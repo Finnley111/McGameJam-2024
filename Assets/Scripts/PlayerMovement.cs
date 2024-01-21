@@ -21,6 +21,8 @@ public class PlayerMovement : MonoBehaviour
     public bool isDead = true;
     public int originalLayer;
     public int dashingLayer;
+    public Animator animator;
+
 
 
     public void killPlayer()
@@ -45,31 +47,52 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    void FixedUpdate() {
+        rb.MovePosition(rb.position + movement * activeMoveSpeed * Time.fixedDeltaTime);
+    }
+
     void PlayerMove() {
         if (GameManager.pegsActive["right"] && Input.GetAxis("Horizontal") > 0)
         {
             movement.x = Input.GetAxisRaw("Horizontal");
 
+            animator.SetBool("UpDominates", false);
+            animator.SetBool("DownDominates", false);
+            animator.SetBool("RightDominates", true);
+            animator.SetBool("LeftDominates", false);
         }
         else if (GameManager.pegsActive["left"] && Input.GetAxis("Horizontal") < 0)
         {
             movement.x = Input.GetAxisRaw("Horizontal");
+
+            animator.SetBool("UpDominates", false);
+            animator.SetBool("DownDominates", false);
+            animator.SetBool("RightDominates", false);
+            animator.SetBool("LeftDominates", true);
         }
-        //movement.x = Input.GetAxisRaw("Horizontal");
 
         if (GameManager.pegsActive["up"] && Input.GetAxis("Vertical") > 0)
         {
             movement.y = Input.GetAxisRaw("Vertical");
 
+            animator.SetBool("UpDominates", true);
+            animator.SetBool("DownDominates", false);
+            animator.SetBool("RightDominates", false);
+            animator.SetBool("LeftDominates", false);
         }
         else if (GameManager.pegsActive["down"] && Input.GetAxis("Vertical") < 0)
         {
             movement.y = Input.GetAxisRaw("Vertical");
+
+            animator.SetBool("UpDominates", false);
+            animator.SetBool("DownDominates", true);
+            animator.SetBool("RightDominates", false);
+            animator.SetBool("LeftDominates", false);
         }
 
+        animator.SetFloat("Player Speed Y", movement.y);
+        animator.SetFloat("Player Speed X", movement.x);
         movement.Normalize();
-
-        rb.velocity = movement * activeMoveSpeed;
 
         if (Input.GetKeyDown(KeyCode.Space) && GameManager.pegsActive["dash"])
         {
