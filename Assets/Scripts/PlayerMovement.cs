@@ -129,6 +129,14 @@ public class PlayerMovement : MonoBehaviour
             Debug.Log("Player is dead");
             killPlayer();
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            GameManager.pegsActive = new Dictionary<string, bool>(){
+            {"up", false},
+            {"down", false},
+            {"right", false},
+            {"left", false},
+            {"dash", false},
+            {"start", false},
+            };
             // }
         }
 
@@ -186,6 +194,14 @@ public class PlayerMovement : MonoBehaviour
         if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
         {
             SceneManager.LoadScene(nextSceneIndex);
+            GameManager.pegsActive = new Dictionary<string, bool>(){
+            {"up", false},
+            {"down", false},
+            {"right", false},
+            {"left", false},
+            {"dash", false},
+            {"start", false},
+            };
         }
         else
         {
