@@ -45,16 +45,19 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if (GameManager.pegsActive["start"]) {
+        if (GameManager.pegsActive["start"])
+        {
             PlayerMove();
         }
     }
 
-    void FixedUpdate() {
+    void FixedUpdate()
+    {
         rb.MovePosition(rb.position + movement * activeMoveSpeed * Time.fixedDeltaTime);
     }
 
-    void PlayerMove() {
+    void PlayerMove()
+    {
         if (GameManager.pegsActive["right"] && Input.GetAxis("Horizontal") > 0)
         {
             movement.x = Input.GetAxisRaw("Horizontal");
@@ -179,31 +182,6 @@ public class PlayerMovement : MonoBehaviour
 
 
     }
-    void OnTriggerStay2D(Collider2D other)
-    {
-        // Check if the player is touching a conveyor belt
-        if (other.gameObject.CompareTag("cbu"))
-        {
-            // Move the player up
-            transform.position += Vector3.up * Time.deltaTime;
-        }
-        else if (other.gameObject.CompareTag("cbl"))
-        {
-            // Move the player left
-            transform.position += Vector3.left * Time.deltaTime;
-        }
-        else if (other.gameObject.CompareTag("cbr"))
-        {
-            // Move the player right
-            transform.position += Vector3.right * Time.deltaTime;
-        }
-        else if (other.gameObject.CompareTag("cbd"))
-        {
-            // Move the player down
-            transform.position += Vector3.down * Time.deltaTime;
-        }
-    }
-
 
     private void LoadNextLevel()
     {
