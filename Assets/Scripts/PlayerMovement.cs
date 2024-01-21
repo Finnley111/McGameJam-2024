@@ -36,7 +36,10 @@ public class PlayerMovement : MonoBehaviour
                 GameManager.wireAmountLeft = 10f;
         }
         else if (SceneManager.GetActiveScene().buildIndex == 2){
-                GameManager.wireAmountLeft = 5f;
+                GameManager.wireAmountLeft = 7.5f;
+        }
+        else if (SceneManager.GetActiveScene().buildIndex == 3){
+                GameManager.wireAmountLeft = 5.5f;
         }
     }
 
@@ -208,7 +211,11 @@ public class PlayerMovement : MonoBehaviour
             }
             if (SceneManager.GetActiveScene().buildIndex + 1 == 2){
                 Debug.Log("Level 2 Loaded ");
-                GameManager.wireAmountLeft = 5f;
+                GameManager.wireAmountLeft = 7.5f;
+            }
+            if (SceneManager.GetActiveScene().buildIndex + 1 == 3){
+                Debug.Log("Level 3 Loaded ");
+                GameManager.wireAmountLeft = 5.5f;
             }
             
             

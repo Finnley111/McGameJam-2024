@@ -23,7 +23,10 @@ public class ResetLevel : MonoBehaviour
                 GameManager.wireAmountLeft = 10f;
         }
         else if (SceneManager.GetActiveScene().buildIndex == 2){
-            GameManager.wireAmountLeft = 5f;
+            GameManager.wireAmountLeft = 7.5f;
+        }
+        else if (SceneManager.GetActiveScene().buildIndex == 3){
+            GameManager.wireAmountLeft = 5.5f;
         }
     }
 }
