@@ -6,6 +6,10 @@ TagManager:
   tags:
   - obstacle
   - goal
+  - cbr
+  - cbl
+  - cbu
+  - cbd
   layers:
   - Default
   - TransparentFX
