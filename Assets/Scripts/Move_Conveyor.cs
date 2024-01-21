@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Move_Conveyor : MonoBehaviour
@@ -29,23 +27,19 @@ public class Move_Conveyor : MonoBehaviour
         {
             if (other.gameObject.CompareTag("cbu"))
             {
-                // Set the target position to the center of the next grid cell up
-                targetPosition = RoundToGrid(transform.position) + Vector3.up * gridSize;
+                targetPosition = transform.position + Vector3.up * gridSize;
             }
             else if (other.gameObject.CompareTag("cbl"))
             {
-                // Set the target position to the center of the next grid cell left
-                targetPosition = RoundToGrid(transform.position) + Vector3.left * gridSize;
+                targetPosition = transform.position + Vector3.left * gridSize;
             }
             else if (other.gameObject.CompareTag("cbr"))
             {
-                // Set the target position to the center of the next grid cell right
-                targetPosition = RoundToGrid(transform.position) + Vector3.right * gridSize;
+                targetPosition = transform.position + Vector3.right * gridSize;
             }
             else if (other.gameObject.CompareTag("cbd"))
             {
-                // Set the target position to the center of the next grid cell down
-                targetPosition = RoundToGrid(transform.position) + Vector3.down * gridSize;
+                targetPosition = transform.position + Vector3.down * gridSize;
             }
         }
     }
