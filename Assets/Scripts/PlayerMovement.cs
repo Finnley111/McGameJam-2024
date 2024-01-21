@@ -24,6 +24,9 @@ public class PlayerMovement : MonoBehaviour
     public Animator animator;
 
 
+    private Vector2 dashDirection;
+    private Vector2 lastMovementDirection;
+
 
     public void killPlayer()
     {
@@ -92,16 +95,32 @@ public class PlayerMovement : MonoBehaviour
 
         animator.SetFloat("Player Speed Y", movement.y);
         animator.SetFloat("Player Speed X", movement.x);
+
+        if (movement.x != 0 || movement.y != 0)
+        {
+            lastMovementDirection = movement.normalized; // Store the last movement direction
+        }
+
         movement.Normalize();
+
+        rb.velocity = movement * activeMoveSpeed;
+
+        // Update the player's facing direction based on input
+        if (Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0)
+        {
+            dashDirection = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
+        }
 
         if (Input.GetKeyDown(KeyCode.Space) && GameManager.pegsActive["dash"])
         {
             if (dashCoolCounter <= 0 && dashCoolCounter <= 0)
             {
+                //Vector2 dashDirection = (movement.x != 0 || movement.y != 0) ? movement.normalized : lastMovementDirection;
                 gameObject.layer = dashingLayer;
                 Debug.Log("Current Layer: " + LayerMask.LayerToName(gameObject.layer));
                 activeMoveSpeed = dashSpeed;
                 dashCounter = dashLength;
+                rb.velocity = dashDirection * dashSpeed; // Apply velocity in the dash direction
             }
         }
 
@@ -113,6 +132,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 gameObject.layer = originalLayer;
                 activeMoveSpeed = moveSpeed;
+                rb.velocity = Vector2.zero;
                 dashCoolCounter = dashCooldown;
             }
         }
@@ -133,6 +153,15 @@ public class PlayerMovement : MonoBehaviour
             // {
             Debug.Log("Player is dead");
             killPlayer();
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            GameManager.pegsActive = new Dictionary<string, bool>(){
+            {"up", false},
+            {"down", false},
+            {"right", false},
+            {"left", false},
+            {"dash", false},
+            {"start", false},
+            };
             // }
         }
 
@@ -147,19 +176,15 @@ public class PlayerMovement : MonoBehaviour
             // }
         }
 
-        // check if touching a conveyor belt labelled cbu, cbl, cbr, cbd and mvove accordingly and stop when not on it
-      
+
 
     }
-    void OnCollisionStay(Collision other)
+    void OnTriggerStay2D(Collider2D other)
     {
-        Debug.Log("Player is on conveyor belt");
         // Check if the player is touching a conveyor belt
         if (other.gameObject.CompareTag("cbu"))
         {
             // Move the player up
-            Debug.Log("Player is on conveyor belt");
-            movement.y = 1;
             transform.position += Vector3.up * Time.deltaTime;
         }
         else if (other.gameObject.CompareTag("cbl"))
@@ -190,6 +215,14 @@ public class PlayerMovement : MonoBehaviour
         if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
         {
             SceneManager.LoadScene(nextSceneIndex);
+            GameManager.pegsActive = new Dictionary<string, bool>(){
+            {"up", false},
+            {"down", false},
+            {"right", false},
+            {"left", false},
+            {"dash", false},
+            {"start", false},
+            };
         }
         else
         {
