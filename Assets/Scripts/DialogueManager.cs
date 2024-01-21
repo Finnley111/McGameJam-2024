@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -179,5 +180,17 @@ public class DialogueManager : MonoBehaviour
     public void EndDialogue() {
         animator.SetBool("isOpen?", false);
         sprite.SetActive(false);
+
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        int nextSceneIndex = currentSceneIndex + 1;
+        SceneManager.LoadScene(nextSceneIndex);
+        Debug.Log("CurrentScene = " + currentSceneIndex);
+    }
+
+    public void NextScene() {
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        int nextSceneIndex = currentSceneIndex + 1;
+        SceneManager.LoadScene(nextSceneIndex);
+        Debug.Log("CurrentScene = " + currentSceneIndex);
     }
 }

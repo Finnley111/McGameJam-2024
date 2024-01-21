@@ -32,13 +32,13 @@ public class PlayerMovement : MonoBehaviour
     {
         isDead = true;
         gameObject.SetActive(false);
-        if (SceneManager.GetActiveScene().buildIndex == 1){
+        if (SceneManager.GetActiveScene().buildIndex == 2){
                 GameManager.wireAmountLeft = 10f;
         }
-        else if (SceneManager.GetActiveScene().buildIndex == 2){
+        else if (SceneManager.GetActiveScene().buildIndex == 4){
                 GameManager.wireAmountLeft = 7.5f;
         }
-        else if (SceneManager.GetActiveScene().buildIndex == 3){
+        else if (SceneManager.GetActiveScene().buildIndex == 6){
                 GameManager.wireAmountLeft = 5.5f;
         }
     }
@@ -209,11 +209,11 @@ public class PlayerMovement : MonoBehaviour
                 Debug.Log("Level 1 Loaded ");
                 GameManager.wireAmountLeft = 10f;
             }
-            if (SceneManager.GetActiveScene().buildIndex + 1 == 2){
+            if (SceneManager.GetActiveScene().buildIndex + 1 == 3){
                 Debug.Log("Level 2 Loaded ");
                 GameManager.wireAmountLeft = 7.5f;
             }
-            if (SceneManager.GetActiveScene().buildIndex + 1 == 3){
+            if (SceneManager.GetActiveScene().buildIndex + 1 == 5){
                 Debug.Log("Level 3 Loaded ");
                 GameManager.wireAmountLeft = 5.5f;
             }
