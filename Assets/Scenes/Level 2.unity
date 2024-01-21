@@ -943,63 +943,6 @@ MonoBehaviour:
     mipBias: 0
     varianceClampScale: 0.9
     contrastAdaptiveSharpening: 0
---- !u!1001 &573052692
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4806877731891458888, guid: 4bc3d619973364db994e14cb6b8cf0af, type: 3}
-      propertyPath: m_Name
-      value: Conveyor Belt Down
-      objectReference: {fileID: 0}
-    - target: {fileID: 7879917851137958552, guid: 4bc3d619973364db994e14cb6b8cf0af, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7879917851137958552, guid: 4bc3d619973364db994e14cb6b8cf0af, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7879917851137958552, guid: 4bc3d619973364db994e14cb6b8cf0af, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7879917851137958552, guid: 4bc3d619973364db994e14cb6b8cf0af, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7879917851137958552, guid: 4bc3d619973364db994e14cb6b8cf0af, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7879917851137958552, guid: 4bc3d619973364db994e14cb6b8cf0af, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7879917851137958552, guid: 4bc3d619973364db994e14cb6b8cf0af, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7879917851137958552, guid: 4bc3d619973364db994e14cb6b8cf0af, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7879917851137958552, guid: 4bc3d619973364db994e14cb6b8cf0af, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7879917851137958552, guid: 4bc3d619973364db994e14cb6b8cf0af, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 180
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 4bc3d619973364db994e14cb6b8cf0af, type: 3}
 --- !u!1 &583754906
 GameObject:
   m_ObjectHideFlags: 0
@@ -1262,6 +1205,67 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d8a46e11f729410b9e72e3871399feb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &913405888
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4806877731891458888, guid: 2f55731763dcb4fde8c4611215d45cdf, type: 3}
+      propertyPath: m_Name
+      value: Conveyor Belt Down
+      objectReference: {fileID: 0}
+    - target: {fileID: 4806877731891458888, guid: 2f55731763dcb4fde8c4611215d45cdf, type: 3}
+      propertyPath: m_TagString
+      value: cbd
+      objectReference: {fileID: 0}
+    - target: {fileID: 7879917851137958552, guid: 2f55731763dcb4fde8c4611215d45cdf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7879917851137958552, guid: 2f55731763dcb4fde8c4611215d45cdf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7879917851137958552, guid: 2f55731763dcb4fde8c4611215d45cdf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7879917851137958552, guid: 2f55731763dcb4fde8c4611215d45cdf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7879917851137958552, guid: 2f55731763dcb4fde8c4611215d45cdf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7879917851137958552, guid: 2f55731763dcb4fde8c4611215d45cdf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7879917851137958552, guid: 2f55731763dcb4fde8c4611215d45cdf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7879917851137958552, guid: 2f55731763dcb4fde8c4611215d45cdf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7879917851137958552, guid: 2f55731763dcb4fde8c4611215d45cdf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7879917851137958552, guid: 2f55731763dcb4fde8c4611215d45cdf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2f55731763dcb4fde8c4611215d45cdf, type: 3}
 --- !u!1001 &968406235
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2002,7 +2006,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7879917851137958552, guid: cfc7186d43aa34993ba0056629f13cbb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4
+      value: -3.5
       objectReference: {fileID: 0}
     - target: {fileID: 7879917851137958552, guid: cfc7186d43aa34993ba0056629f13cbb, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2929,5 +2933,5 @@ SceneRoots:
   - {fileID: 1768625761}
   - {fileID: 1625289315}
   - {fileID: 1174007803}
-  - {fileID: 573052692}
+  - {fileID: 913405888}
   - {fileID: 806827340}
