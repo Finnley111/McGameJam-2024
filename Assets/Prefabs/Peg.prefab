@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: -108581805
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0cec4a5320826413bab39b5228c8e667, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -138,6 +138,11 @@ MonoBehaviour:
   ConnectedWires: []
   pegID: {x: 0, y: 0}
   rbd: {fileID: -2642056352567115570}
+  isPlug: 0
+  isFinalPeg: 0
+  connections: 0
+  isActivated: 0
+  pegType: 
 --- !u!50 &-2642056352567115570
 Rigidbody2D:
   serializedVersion: 4
