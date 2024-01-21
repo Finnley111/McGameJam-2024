@@ -1,0 +1,3295 @@
+fileFormatVersion: 2
+guid: d766f7565a6d5491f9f5de1afc1e4341
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PixelBackdropFinal_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3520
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f24a5a8e0654185a658af7f2505a3a
+      internalID: 1746817307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_1
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 3520
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 429afc12b140f426290bbf058284fc7d
+      internalID: 1585753589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_2
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 3520
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922ff845ec8794131a946f46af3e221a
+      internalID: 564538972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_3
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 3520
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66f0868e8b754f20a85dac55782fed7
+      internalID: 594464330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_4
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 3520
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08d9e0795c004eb4adc73a495ebb19c
+      internalID: 1266428199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_5
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 3520
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028d049f0e03e44c697a740669bf9485
+      internalID: -339741368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_6
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 3520
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894f67e10d7ef4d1385b300c00b647d0
+      internalID: 1153912271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_7
+      rect:
+        serializedVersion: 2
+        x: 2940
+        y: 3520
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37b9296920254733b7f3b99ed4ebe23
+      internalID: 1264421811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_8
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 3520
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72305a476074446b6962253bce26cd17
+      internalID: -739642513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_9
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 3520
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550744f9681624386b6d20a699af7992
+      internalID: 1145062560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_10
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 3520
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9289e12648bb4cbf9622cfc26fb1170
+      internalID: 1822722555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_11
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 3520
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ae4692f5fff4cb1b09a80e2883ac85
+      internalID: 663017359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3200
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfefecb74db244ec187cded085961066
+      internalID: -1573272752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_13
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 3200
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78dbc9b66afdd435486a30df5a8c4780
+      internalID: 210346268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_14
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 3200
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c935ac5e3144039922b9c9d05312ff
+      internalID: 248006171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_15
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 3200
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8d4dd363cb948e19e0aba21fccea9d
+      internalID: 1029706605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_16
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 3200
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78790e5d55cc1499e9d069674e11c4d7
+      internalID: -711313428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_17
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 3200
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac385ad7d7ff4343adaf99a3924dcbb
+      internalID: -377947195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_18
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 3200
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5e9ccbdc8e64305927234e188791ba
+      internalID: 813494069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_19
+      rect:
+        serializedVersion: 2
+        x: 2940
+        y: 3200
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47619e4520e764fbeb923395c56a27f8
+      internalID: 2028308620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_20
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 3200
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c48f28474a44f0ca60dc35d2bc7820
+      internalID: 2127315317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_21
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 3200
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6420ad457fd624042a5d9fb7e7835f1d
+      internalID: 634209701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_22
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 3200
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494d67afe980f48efafecb0607b7fc34
+      internalID: -1311047383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_23
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 3200
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5963908f27ded40aba0f66a08c9a318a
+      internalID: 1543465204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2880
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bad25336f39346598201ff41e933790
+      internalID: -155408928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_25
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2880
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548579e12058d4f54b9afbcf24bc470b
+      internalID: -1994672331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_26
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 2880
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc73ae28711e94ed2a4f8ee1090c257e
+      internalID: -1067520514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_27
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 2880
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63770e4497c447b396d32966585111c
+      internalID: 517782196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_28
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 2880
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487a4b676f42e42c7a581200fb320472
+      internalID: 1328378854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_29
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 2880
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ddebf654d114fa8a324db9f3e983d7
+      internalID: 847479378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_30
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 2880
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00bc1164e06b64ae18441c833b56bcf4
+      internalID: -796631304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_31
+      rect:
+        serializedVersion: 2
+        x: 2940
+        y: 2880
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d8470f2aaf2447bb72d47b533f3320
+      internalID: 418635088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_32
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 2880
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8986580ba8f3e49e4b1772bf42571596
+      internalID: 879324418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_33
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 2880
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ba4893130ba4aa2b4e6ebd5c439be0
+      internalID: -221081833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_34
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 2880
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b881343491d6a4b9ab4b1cb9860ad14c
+      internalID: 38942140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_35
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 2880
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f31675b4eb7d494ab52186aca7fdb9e
+      internalID: 2013054211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18632e22fd4544a39beb7568a85ac8fb
+      internalID: 1679564797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_37
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2560
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aee43931d8b8474c94d870acbb7fec4
+      internalID: 1657318426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_38
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 2560
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f600100a2a6ce455fbd259552ae2291b
+      internalID: -893206104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_39
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 2560
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63bf3dd31bd60451db06e06b9e78547c
+      internalID: -634065905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_40
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 2560
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b62fe289937460684a68f0324b3013
+      internalID: -1510773803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_41
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 2560
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f00bf719d61f453ca7a009eb86c3268
+      internalID: 873274219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_42
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 2560
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ccee2a4af4c4dacb62459e27c17cfe
+      internalID: -989249432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_43
+      rect:
+        serializedVersion: 2
+        x: 2940
+        y: 2560
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b908321ce0c24a5cb8dedfe6884e26f
+      internalID: -60942925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_44
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 2560
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a681cccaa0ac4ab08c9aefb89c49acb
+      internalID: 1806918299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_45
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 2560
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a469e1c8b6c354dd5a15da53e53bd4ca
+      internalID: -1221774162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_46
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 2560
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2adde0d7a0c3a434facc1f02ae9925ba
+      internalID: 969713209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_47
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 2560
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448bf68dcb7284dc8bc887ade58346af
+      internalID: 641146638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2240
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e397930ffd0a42ecb54a2561d4bba7b
+      internalID: -1878373545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_49
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2240
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce2e218d098d4df4bf4f6fa40808c93
+      internalID: 911666650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_50
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 2240
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53adc0d64a6be441ea9de28b1531d330
+      internalID: -165297310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_51
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 2240
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b694fa85ef8474da9b70f69dff6d5ec0
+      internalID: -487629205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_52
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 2240
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95c2f1c93e6747078e92991d51dfb1e
+      internalID: 1822208572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_53
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 2240
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b1f4b399e494428bb8126ab6376f1a
+      internalID: 903543156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_54
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 2240
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989c4b2051db340d2989cc280328e2c6
+      internalID: 1638814458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_55
+      rect:
+        serializedVersion: 2
+        x: 2940
+        y: 2240
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79847856f3f24b75a21c43b9efd2603
+      internalID: 208897666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_56
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 2240
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f19c807209c5453096b93aeae3b307a
+      internalID: 498863288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_57
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 2240
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7b43ef503644d558103e24306ccb67
+      internalID: 579233068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_58
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 2240
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633602ac626164ae5adc6608ea279c2c
+      internalID: -1594008489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_59
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 2240
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b628ceb2ace84b1c8585e2ef9c1cd28
+      internalID: 384122828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764adb8b16d3a479eb4bb239f6dbb141
+      internalID: -453973037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_61
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1920
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d982a00b640674642a1ef7a3215f96f7
+      internalID: -2034322865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_62
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1920
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533f6e8eb628d41c6ad314e8d646501d
+      internalID: -1627992119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_63
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1920
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b77f9c03d41468792c37ba62b4bb05
+      internalID: 1269041694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_64
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1920
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4f93fd3f6864d5b98e766a230b9578
+      internalID: -1098433551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_65
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 1920
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952e885b150d5445490e30c1de725c04
+      internalID: 1848088445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_66
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 1920
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25a75836c3f947379956bd7c2556e97
+      internalID: -973866313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_67
+      rect:
+        serializedVersion: 2
+        x: 2940
+        y: 1920
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f02364c4baf46769c984672cf5cbec
+      internalID: -317332483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_68
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 1920
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d79125fa37bd4fbeb16d053a0ddb032
+      internalID: 587277987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_69
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 1920
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c120f742642194029a2c6bbd1eebc6d4
+      internalID: 2120307566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_70
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 1920
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3c70ca5a233479684ec1aea4fde3ac
+      internalID: -1381590320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_71
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 1920
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec393587e13e24081b7fd6adf1029977
+      internalID: 201024314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa583db97b15148a69fd99d581d7dc3c
+      internalID: -2003009085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_73
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1600
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b82aeb0df094d43ad01d27b43cb04b
+      internalID: -1537949735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_74
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1600
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71292c9c8540d4eccb77b3f6e9099a88
+      internalID: 1219356529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_75
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1600
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d282acef08dfb42bf9cc79fb541b7c6b
+      internalID: -1906318873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_76
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1600
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195096b8ee27e4b9795fe194fa45e1ff
+      internalID: 1464682799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_77
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 1600
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e752555268ff41d3a9ea3d1e1a4e056
+      internalID: 1722922151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_78
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 1600
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97dea34be20e14641b3dfe8e9029f243
+      internalID: -541431249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_79
+      rect:
+        serializedVersion: 2
+        x: 2940
+        y: 1600
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a140ddb7433eb42d8b0f78f4ecc2d8b8
+      internalID: -1647429296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_80
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 1600
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac0937e68d694cbdb6203c03f706766
+      internalID: 532891367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_81
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 1600
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dbb43c662f0b4e0796432f2fbf4728e
+      internalID: -838431143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_82
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 1600
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a42b5775841044c1afb015d27d5cb28
+      internalID: -169757719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_83
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 1600
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160890e4647ba42359f5db0de7e35805
+      internalID: 1725331340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00a4a06286a347d4bdcc8e6ac3a90a8
+      internalID: -1921725202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_85
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1280
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b6bdb7b4eb74539aa3e70ea910fa38
+      internalID: 717908231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_86
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1280
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3f6673717514b58b16d83294090592
+      internalID: -820586557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_87
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1280
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f7bd0530c0e47b28039a7802e19522
+      internalID: -800823691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_88
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1280
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a267997475fa644d28ef927accb1e6df
+      internalID: 1596697627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_89
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 1280
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca630299117b4a3d9a0f7579165907a
+      internalID: 1101502146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_90
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 1280
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8cf5dfe70194eb7a2931b10cfae568
+      internalID: -857011127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_91
+      rect:
+        serializedVersion: 2
+        x: 2940
+        y: 1280
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2f18754b4b14db0bc0f16475f76e21
+      internalID: -1944563738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_92
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 1280
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f4c6da7c8d44d018153afb10fb60d0
+      internalID: 614416731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_93
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 1280
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218307f923f4146f58e6ee3d27713ba6
+      internalID: -259525973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_94
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 1280
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21620d7e6e48f4853812c2c3200d7da5
+      internalID: -1124150767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_95
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 1280
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80e3782da465417eb5c59b24b1a85c2
+      internalID: 2117010521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11daac93d0ea475c9f576474af95587
+      internalID: -1152859783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_97
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 960
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03c2e82423634676a065726213c36bc
+      internalID: 1387661291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_98
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 960
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998519478871a4afcad60246ab3e8d37
+      internalID: 1153576635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_99
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 960
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42cca9946211b45a49bba6375eed59d0
+      internalID: -1209850717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_100
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 960
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38aeceef2d874500bb109922961f238
+      internalID: 819268243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_101
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 960
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c280d9ca8acd946cb9dc8c2f7ca69d61
+      internalID: -1682193708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_102
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 960
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4137874de2f7144d6bee1d13b5670a6a
+      internalID: -1182028833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_103
+      rect:
+        serializedVersion: 2
+        x: 2940
+        y: 960
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386c35fd1cabb42249266cc5e6f22e43
+      internalID: 671343004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_104
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 960
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bcdbdeff747d4fecba08962a5837bef
+      internalID: -97050088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_105
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 960
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adebc2721ec824dacaa6f39e9e9d11e6
+      internalID: -971201194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_106
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 960
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb37705510c14c34a21ace35d0897ec
+      internalID: -45433968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_107
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 960
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44dc31403ba184641aeb72def7488c44
+      internalID: -1704536179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb3fb5bf8c0c487ba2c09af356ab0de
+      internalID: 1271662718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_109
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 640
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19376acdaac5840f2bb18858338dbc15
+      internalID: -1540277162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_110
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 640
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ecfd42f7a4c41349b223c169cee4df
+      internalID: -342005351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_111
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 640
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2214832e815b44a3fbb25a4cb1441d32
+      internalID: -346540454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_112
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 640
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8b5a57d681a481d9a929c95b6caafc
+      internalID: -1517631729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_113
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 640
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47faefdf85b144994a9a1e1278c65b39
+      internalID: -704892017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_114
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 640
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02754d957f824463292c12ffeaf14069
+      internalID: 1008573451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_115
+      rect:
+        serializedVersion: 2
+        x: 2940
+        y: 640
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ac1243c5ef148fa979a95c085badc8
+      internalID: -755133968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_116
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 640
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c45ee3bd68f34f5e9a29d896a3114ac
+      internalID: -51793828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_117
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 640
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077596288ad3b4d3da9a1fcf3dbacca1
+      internalID: -1636900414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_118
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 640
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91567599e6ae8457f8572a2074185399
+      internalID: -666406297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_119
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 640
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3fcab35c58b4388afbc4b012e4a8c1
+      internalID: 1573103888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a0c37121f614c158334f87d58fb957
+      internalID: -1360087707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_121
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 320
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a657655a2cfe54bc197df8addc77a3a9
+      internalID: 1638046896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_122
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 320
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3b7e479264b457db252d19f7e5507e
+      internalID: -613647118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_123
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 320
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bec0a12c967242c6aeb30c081bf957a
+      internalID: -1691128270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_124
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 320
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec12ca41931404a988460b6201c11c49
+      internalID: -204763105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_125
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 320
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198fa3bc5f6c34525a5bbec282c83b72
+      internalID: -605805215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_126
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 320
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05e9e83fb356497593663c79093867d
+      internalID: 1344584454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_127
+      rect:
+        serializedVersion: 2
+        x: 2940
+        y: 320
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70a5eaf10dda4df7b6e08873c36442d
+      internalID: 1393979107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_128
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 320
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717c7c280910841ffa13b9471d5d07e6
+      internalID: 739352641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_129
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 320
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d05d0fb2a6f4f898f4a5d7205b6211
+      internalID: 199291040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_130
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 320
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19796c40c52943f08b140f96118682d
+      internalID: 1726899956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_131
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 320
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89280d41eb5054df8bb22cf1d8907d8c
+      internalID: -1962098957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a06a87d7695841cc99b88e0d0934492
+      internalID: 749574785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_133
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f4b7c455ea3464b8d99872a62835a3
+      internalID: -2015241369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_134
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 0
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145cb589f5a9b42919a5bd52509f51c9
+      internalID: 147304762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_135
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 0
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db367d0efe3b54b2097352d3bba89537
+      internalID: -1156454739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_136
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 0
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5cf7caff3f0340feb48011d87822d01
+      internalID: -1961770936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_137
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 0
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595ef34d083e24759bbcdbb1f92114ee
+      internalID: -810197621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_138
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 0
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b30c3462b444138aa681e43b60e0a9
+      internalID: -1120360190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_139
+      rect:
+        serializedVersion: 2
+        x: 2940
+        y: 0
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4730c5d827124b929d45a4b57a29562
+      internalID: -1382559823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_140
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 0
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813c3344747e04e9f8e835dd9b51937a
+      internalID: -885371659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_141
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 0
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac60c107bbabf4e10ad3e63d1f30c935
+      internalID: -654917712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_142
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 0
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d41931c27f9f4103b8cf6077b20896f
+      internalID: -1593771959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelBackdropFinal_143
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 0
+        width: 420
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4051b7e88dda421e8fbf6d03ec3957d
+      internalID: 527510059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PixelBackdropFinal_0: 1746817307
+      PixelBackdropFinal_1: 1585753589
+      PixelBackdropFinal_10: 1822722555
+      PixelBackdropFinal_100: 819268243
+      PixelBackdropFinal_101: -1682193708
+      PixelBackdropFinal_102: -1182028833
+      PixelBackdropFinal_103: 671343004
+      PixelBackdropFinal_104: -97050088
+      PixelBackdropFinal_105: -971201194
+      PixelBackdropFinal_106: -45433968
+      PixelBackdropFinal_107: -1704536179
+      PixelBackdropFinal_108: 1271662718
+      PixelBackdropFinal_109: -1540277162
+      PixelBackdropFinal_11: 663017359
+      PixelBackdropFinal_110: -342005351
+      PixelBackdropFinal_111: -346540454
+      PixelBackdropFinal_112: -1517631729
+      PixelBackdropFinal_113: -704892017
+      PixelBackdropFinal_114: 1008573451
+      PixelBackdropFinal_115: -755133968
+      PixelBackdropFinal_116: -51793828
+      PixelBackdropFinal_117: -1636900414
+      PixelBackdropFinal_118: -666406297
+      PixelBackdropFinal_119: 1573103888
+      PixelBackdropFinal_12: -1573272752
+      PixelBackdropFinal_120: -1360087707
+      PixelBackdropFinal_121: 1638046896
+      PixelBackdropFinal_122: -613647118
+      PixelBackdropFinal_123: -1691128270
+      PixelBackdropFinal_124: -204763105
+      PixelBackdropFinal_125: -605805215
+      PixelBackdropFinal_126: 1344584454
+      PixelBackdropFinal_127: 1393979107
+      PixelBackdropFinal_128: 739352641
+      PixelBackdropFinal_129: 199291040
+      PixelBackdropFinal_13: 210346268
+      PixelBackdropFinal_130: 1726899956
+      PixelBackdropFinal_131: -1962098957
+      PixelBackdropFinal_132: 749574785
+      PixelBackdropFinal_133: -2015241369
+      PixelBackdropFinal_134: 147304762
+      PixelBackdropFinal_135: -1156454739
+      PixelBackdropFinal_136: -1961770936
+      PixelBackdropFinal_137: -810197621
+      PixelBackdropFinal_138: -1120360190
+      PixelBackdropFinal_139: -1382559823
+      PixelBackdropFinal_14: 248006171
+      PixelBackdropFinal_140: -885371659
+      PixelBackdropFinal_141: -654917712
+      PixelBackdropFinal_142: -1593771959
+      PixelBackdropFinal_143: 527510059
+      PixelBackdropFinal_15: 1029706605
+      PixelBackdropFinal_16: -711313428
+      PixelBackdropFinal_17: -377947195
+      PixelBackdropFinal_18: 813494069
+      PixelBackdropFinal_19: 2028308620
+      PixelBackdropFinal_2: 564538972
+      PixelBackdropFinal_20: 2127315317
+      PixelBackdropFinal_21: 634209701
+      PixelBackdropFinal_22: -1311047383
+      PixelBackdropFinal_23: 1543465204
+      PixelBackdropFinal_24: -155408928
+      PixelBackdropFinal_25: -1994672331
+      PixelBackdropFinal_26: -1067520514
+      PixelBackdropFinal_27: 517782196
+      PixelBackdropFinal_28: 1328378854
+      PixelBackdropFinal_29: 847479378
+      PixelBackdropFinal_3: 594464330
+      PixelBackdropFinal_30: -796631304
+      PixelBackdropFinal_31: 418635088
+      PixelBackdropFinal_32: 879324418
+      PixelBackdropFinal_33: -221081833
+      PixelBackdropFinal_34: 38942140
+      PixelBackdropFinal_35: 2013054211
+      PixelBackdropFinal_36: 1679564797
+      PixelBackdropFinal_37: 1657318426
+      PixelBackdropFinal_38: -893206104
+      PixelBackdropFinal_39: -634065905
+      PixelBackdropFinal_4: 1266428199
+      PixelBackdropFinal_40: -1510773803
+      PixelBackdropFinal_41: 873274219
+      PixelBackdropFinal_42: -989249432
+      PixelBackdropFinal_43: -60942925
+      PixelBackdropFinal_44: 1806918299
+      PixelBackdropFinal_45: -1221774162
+      PixelBackdropFinal_46: 969713209
+      PixelBackdropFinal_47: 641146638
+      PixelBackdropFinal_48: -1878373545
+      PixelBackdropFinal_49: 911666650
+      PixelBackdropFinal_5: -339741368
+      PixelBackdropFinal_50: -165297310
+      PixelBackdropFinal_51: -487629205
+      PixelBackdropFinal_52: 1822208572
+      PixelBackdropFinal_53: 903543156
+      PixelBackdropFinal_54: 1638814458
+      PixelBackdropFinal_55: 208897666
+      PixelBackdropFinal_56: 498863288
+      PixelBackdropFinal_57: 579233068
+      PixelBackdropFinal_58: -1594008489
+      PixelBackdropFinal_59: 384122828
+      PixelBackdropFinal_6: 1153912271
+      PixelBackdropFinal_60: -453973037
+      PixelBackdropFinal_61: -2034322865
+      PixelBackdropFinal_62: -1627992119
+      PixelBackdropFinal_63: 1269041694
+      PixelBackdropFinal_64: -1098433551
+      PixelBackdropFinal_65: 1848088445
+      PixelBackdropFinal_66: -973866313
+      PixelBackdropFinal_67: -317332483
+      PixelBackdropFinal_68: 587277987
+      PixelBackdropFinal_69: 2120307566
+      PixelBackdropFinal_7: 1264421811
+      PixelBackdropFinal_70: -1381590320
+      PixelBackdropFinal_71: 201024314
+      PixelBackdropFinal_72: -2003009085
+      PixelBackdropFinal_73: -1537949735
+      PixelBackdropFinal_74: 1219356529
+      PixelBackdropFinal_75: -1906318873
+      PixelBackdropFinal_76: 1464682799
+      PixelBackdropFinal_77: 1722922151
+      PixelBackdropFinal_78: -541431249
+      PixelBackdropFinal_79: -1647429296
+      PixelBackdropFinal_8: -739642513
+      PixelBackdropFinal_80: 532891367
+      PixelBackdropFinal_81: -838431143
+      PixelBackdropFinal_82: -169757719
+      PixelBackdropFinal_83: 1725331340
+      PixelBackdropFinal_84: -1921725202
+      PixelBackdropFinal_85: 717908231
+      PixelBackdropFinal_86: -820586557
+      PixelBackdropFinal_87: -800823691
+      PixelBackdropFinal_88: 1596697627
+      PixelBackdropFinal_89: 1101502146
+      PixelBackdropFinal_9: 1145062560
+      PixelBackdropFinal_90: -857011127
+      PixelBackdropFinal_91: -1944563738
+      PixelBackdropFinal_92: 614416731
+      PixelBackdropFinal_93: -259525973
+      PixelBackdropFinal_94: -1124150767
+      PixelBackdropFinal_95: 2117010521
+      PixelBackdropFinal_96: -1152859783
+      PixelBackdropFinal_97: 1387661291
+      PixelBackdropFinal_98: 1153576635
+      PixelBackdropFinal_99: -1209850717
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

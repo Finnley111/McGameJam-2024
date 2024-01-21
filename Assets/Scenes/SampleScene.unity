@@ -200,7 +200,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 1
-  m_FillAmount: 0.35
+  m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
@@ -1065,6 +1065,7 @@ MonoBehaviour:
   isDead: 1
   originalLayer: 0
   dashingLayer: 0
+  animator: {fileID: 0}
 --- !u!1 &583754906
 GameObject:
   m_ObjectHideFlags: 0
@@ -1117,7 +1118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximum: 20
-  current: 7
+  current: 20
   mask: {fileID: 30387678}
 --- !u!114 &583754909
 MonoBehaviour:
