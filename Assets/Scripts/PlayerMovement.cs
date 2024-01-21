@@ -22,6 +22,9 @@ public class PlayerMovement : MonoBehaviour
     public int originalLayer;
     public int dashingLayer;
 
+    private Vector2 dashDirection;
+    private Vector2 lastMovementDirection;
+
 
     public void killPlayer()
     {
@@ -67,18 +70,32 @@ public class PlayerMovement : MonoBehaviour
             movement.y = Input.GetAxisRaw("Vertical");
         }
 
+        if (movement.x != 0 || movement.y != 0)
+        {
+            lastMovementDirection = movement.normalized; // Store the last movement direction
+        }
+
         movement.Normalize();
 
         rb.velocity = movement * activeMoveSpeed;
+
+        // Update the player's facing direction based on input
+        if (Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0)
+        {
+            dashDirection = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
+        }
+
 
         if (Input.GetKeyDown(KeyCode.Space) && GameManager.pegsActive["dash"])
         {
             if (dashCoolCounter <= 0 && dashCoolCounter <= 0)
             {
+                //Vector2 dashDirection = (movement.x != 0 || movement.y != 0) ? movement.normalized : lastMovementDirection;
                 gameObject.layer = dashingLayer;
                 Debug.Log("Current Layer: " + LayerMask.LayerToName(gameObject.layer));
                 activeMoveSpeed = dashSpeed;
                 dashCounter = dashLength;
+                rb.velocity = dashDirection * dashSpeed; // Apply velocity in the dash direction
             }
         }
 
@@ -90,6 +107,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 gameObject.layer = originalLayer;
                 activeMoveSpeed = moveSpeed;
+                rb.velocity = Vector2.zero;
                 dashCoolCounter = dashCooldown;
             }
         }
