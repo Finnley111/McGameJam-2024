@@ -47,4 +47,5 @@ public class Peg : MonoBehaviour
             GameManager.pegsActive["start"] = true;
         }
     }
+
 }
