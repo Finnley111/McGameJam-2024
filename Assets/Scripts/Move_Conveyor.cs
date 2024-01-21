@@ -4,11 +4,14 @@ public class Move_Conveyor : MonoBehaviour
 {
     private Vector3 targetPosition;
     private float gridSize = 1.0f; // Set this to the size of your grid
-    private float moveSpeed = 1.0f; // Set this to the desired move speed
+    private float moveSpeed = 3.0f; // Set this to the desired move speed
+    
+
+    
 
     void Update()
     {
-        if (targetPosition != Vector3.zero)
+        if (targetPosition != Vector3.zero && GameManager.pegsActive["belt"] && GameManager.pegsActive["start"])
         {
             float step = moveSpeed * Time.deltaTime;
             transform.position = Vector3.MoveTowards(transform.position, targetPosition, step);
@@ -23,7 +26,7 @@ public class Move_Conveyor : MonoBehaviour
     void OnTriggerStay2D(Collider2D other)
     {
         // Check if the player is touching a conveyor belt and is not currently moving
-        if (targetPosition == Vector3.zero)
+        if (targetPosition == Vector3.zero )
         {
             if (other.gameObject.CompareTag("cbu"))
             {

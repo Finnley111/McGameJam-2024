@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5846986864499058828}
   - component: {fileID: 3280260176083166922}
   - component: {fileID: 5926853262470871151}
+  - component: {fileID: -1161495620507379050}
   m_Layer: 0
   m_Name: Conveyor Belt Left
   m_TagString: cbl
@@ -152,3 +153,16 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-1161495620507379050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4806877731891458888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89ec058cfbdb02f4397ee449a6a6c973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 5926853262470871151, guid: 4bc3d619973364db994e14cb6b8cf0af, type: 3}
