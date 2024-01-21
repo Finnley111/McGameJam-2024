@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class GameManager : MonoBehaviour
 {
@@ -15,7 +17,7 @@ public class GameManager : MonoBehaviour
     {"belt", false},
     };
 
-    public static float wireAmountLeft = 20;
+    public static float wireAmountLeft = 10;
 
     public void Awake() {
         AllPoints.Clear();

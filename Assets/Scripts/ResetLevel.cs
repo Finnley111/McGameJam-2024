@@ -18,5 +18,12 @@ public class ResetLevel : MonoBehaviour
         {"start", false},
         {"belt", false},
         };
+
+        if (SceneManager.GetActiveScene().buildIndex == 1){
+                GameManager.wireAmountLeft = 10f;
+        }
+        else if (SceneManager.GetActiveScene().buildIndex == 2){
+            GameManager.wireAmountLeft = 5f;
+        }
     }
 }
