@@ -14,6 +14,8 @@ public class GameManager : MonoBehaviour
     {"start", false},
     };
 
+    public static float wireAmountLeft = 20;
+
     public void Awake() {
         AllPoints.Clear();
     }
