@@ -32,6 +32,7 @@ public class PlayerMovement : MonoBehaviour
     {
         isDead = true;
         gameObject.SetActive(false);
+        GameManager.wireAmountLeft = 20f;
     }
 
     void Start()
@@ -203,6 +204,7 @@ public class PlayerMovement : MonoBehaviour
             {"start", false},
             {"belt", false},
             };
+            GameManager.wireAmountLeft = 20f;
         }
         else
         {
