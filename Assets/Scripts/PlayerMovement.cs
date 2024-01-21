@@ -117,19 +117,15 @@ public class PlayerMovement : MonoBehaviour
             // }
         }
 
-        // check if touching a conveyor belt labelled cbu, cbl, cbr, cbd and mvove accordingly and stop when not on it
-      
+
 
     }
-    void OnCollisionStay(Collision other)
+    void OnTriggerStay2D(Collider2D other)
     {
-        Debug.Log("Player is on conveyor belt");
         // Check if the player is touching a conveyor belt
         if (other.gameObject.CompareTag("cbu"))
         {
             // Move the player up
-            Debug.Log("Player is on conveyor belt");
-            movement.y = 1;
             transform.position += Vector3.up * Time.deltaTime;
         }
         else if (other.gameObject.CompareTag("cbl"))
