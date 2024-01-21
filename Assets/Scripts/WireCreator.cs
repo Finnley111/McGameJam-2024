@@ -17,12 +17,10 @@ public class WireCreator : MonoBehaviour, IPointerDownHandler
     public Peg CurrentEndPoint;
     public GameObject PegToInstantiate;
     public Transform PegParent;
-    public float wireAmountLeft;
-
 
 
     public void OnPointerDown(PointerEventData eventData) {
-        if (wireAmountLeft > 0 && GameManager.pegsActive["start"] == false) {
+        if (GameManager.wireAmountLeft > 0 && GameManager.pegsActive["start"] == false) {
             wireCreationLogic(eventData);
         }
         if (WireCreationStarted) {
@@ -80,7 +78,7 @@ public class WireCreator : MonoBehaviour, IPointerDownHandler
 
     void FinishWireCreation() {
         CurrentWire.boxCollider.size = CurrentWire.wireSpriteRenderer.size;
-        wireAmountLeft -= CurrentWire.length;
+        GameManager.wireAmountLeft -= CurrentWire.length;
         if (GameManager.AllPoints.ContainsKey(CurrentEndPoint.transform.position)) {
             Debug.Log("End Point Has Peg");
             Destroy(CurrentEndPoint.gameObject);
@@ -111,7 +109,7 @@ public class WireCreator : MonoBehaviour, IPointerDownHandler
             CurrentEndPoint.pegID = CurrentEndPoint.transform.position;
             CurrentWire.UpdatingCreatingWire(CurrentEndPoint.transform.position);
 
-            if (wireAmountLeft <= 0 || GameManager.pegsActive["start"] == true) {
+            if (GameManager.wireAmountLeft <= 0 || GameManager.pegsActive["start"] == true) {
                     WireCreationStarted = false;
                     DeleteCurrentWire();
             }
