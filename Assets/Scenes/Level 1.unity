@@ -244,6 +244,10 @@ PrefabInstance:
       propertyPath: m_BodyType
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3017328877987061080, guid: 3d8b4138ce16c3e4285cfd2b67dd2187, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 003d645f4b8af2b4c82067cd886faa47, type: 3}
     - target: {fileID: 5171929289341630474, guid: 3d8b4138ce16c3e4285cfd2b67dd2187, type: 3}
       propertyPath: pegID.x
       value: 6
@@ -645,6 +649,10 @@ PrefabInstance:
       propertyPath: m_BodyType
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3017328877987061080, guid: 3d8b4138ce16c3e4285cfd2b67dd2187, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9522e062659054040b25130a29a7ade6, type: 3}
     - target: {fileID: 5171929289341630474, guid: 3d8b4138ce16c3e4285cfd2b67dd2187, type: 3}
       propertyPath: pegID.x
       value: 8
@@ -2059,6 +2067,10 @@ PrefabInstance:
       propertyPath: m_BodyType
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3017328877987061080, guid: 3d8b4138ce16c3e4285cfd2b67dd2187, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 749ea1f42a118484b9ceaf10f047ff35, type: 3}
     - target: {fileID: 5171929289341630474, guid: 3d8b4138ce16c3e4285cfd2b67dd2187, type: 3}
       propertyPath: pegType
       value: right
@@ -2450,6 +2462,10 @@ PrefabInstance:
       propertyPath: m_BodyType
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3017328877987061080, guid: 3d8b4138ce16c3e4285cfd2b67dd2187, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3a55cd6ac327bfa45a8ac07b406af25b, type: 3}
     - target: {fileID: 5171929289341630474, guid: 3d8b4138ce16c3e4285cfd2b67dd2187, type: 3}
       propertyPath: pegID.x
       value: 6
@@ -2708,6 +2724,10 @@ PrefabInstance:
       propertyPath: m_BodyType
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3017328877987061080, guid: 3d8b4138ce16c3e4285cfd2b67dd2187, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b66a769f2d7c1a843aac15e72632a0c5, type: 3}
     - target: {fileID: 5171929289341630474, guid: 3d8b4138ce16c3e4285cfd2b67dd2187, type: 3}
       propertyPath: pegID.x
       value: 7

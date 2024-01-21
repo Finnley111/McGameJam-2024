@@ -128,6 +128,7 @@ public class PlayerMovement : MonoBehaviour
             // {
             Debug.Log("Player is dead");
             killPlayer();
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             // }
         }
 
