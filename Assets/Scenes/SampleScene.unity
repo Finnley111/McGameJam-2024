@@ -1055,6 +1055,8 @@ MonoBehaviour:
   dashLength: 0.2
   dashCooldown: 0.1
   isDead: 1
+  originalLayer: 0
+  dashingLayer: 0
 --- !u!1 &583754906
 GameObject:
   m_ObjectHideFlags: 0
@@ -1107,7 +1109,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximum: 20
-  current: 32
+  current: 20
   mask: {fileID: 30387678}
 --- !u!114 &583754909
 MonoBehaviour:
@@ -2448,7 +2450,6 @@ MonoBehaviour:
   CurrentEndPoint: {fileID: 0}
   PegToInstantiate: {fileID: 8145294649090725501, guid: 3d8b4138ce16c3e4285cfd2b67dd2187, type: 3}
   PegParent: {fileID: 1233657680}
-  wireAmountLeft: 3.19
 --- !u!1001 &6939238870487317810
 PrefabInstance:
   m_ObjectHideFlags: 0
