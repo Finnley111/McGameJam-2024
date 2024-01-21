@@ -74,8 +74,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 379906599
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 196613791, guid: d14f0ccfd687c4313a7083978f3ff9fa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -103,7 +103,7 @@ MonoBehaviour:
   moveSpeed: 5
   rb: {fileID: 0}
   dashSpeed: 15
-  dashLength: 0.2
+  dashLength: 0.3
   dashCooldown: 0.1
   isDead: 1
   originalLayer: 0
