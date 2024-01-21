@@ -17,8 +17,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Dashing
+  - Wall
   - 
   - 
   - 
@@ -61,4 +61,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 379906599
+    locked: 0
+  - name: Dashing
+    uniqueID: 345902487
     locked: 0

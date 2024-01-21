@@ -19,6 +19,8 @@ public class PlayerMovement : MonoBehaviour
     private float dashCoolCounter;
 
     public bool isDead = true;
+    public int originalLayer;
+    public int dashingLayer;
 
 
     public void killPlayer()
@@ -32,6 +34,8 @@ public class PlayerMovement : MonoBehaviour
         activeMoveSpeed = moveSpeed;
         rb = this.GetComponent<Rigidbody2D>();
         rb.freezeRotation = true;
+        originalLayer = gameObject.layer;
+        dashingLayer = LayerMask.NameToLayer("Dashing");
     }
 
     void Update()
@@ -71,6 +75,8 @@ public class PlayerMovement : MonoBehaviour
         {
             if (dashCoolCounter <= 0 && dashCoolCounter <= 0)
             {
+                gameObject.layer = dashingLayer;
+                Debug.Log("Current Layer: " + LayerMask.LayerToName(gameObject.layer));
                 activeMoveSpeed = dashSpeed;
                 dashCounter = dashLength;
             }
@@ -82,6 +88,7 @@ public class PlayerMovement : MonoBehaviour
 
             if (dashCounter <= 0)
             {
+                gameObject.layer = originalLayer;
                 activeMoveSpeed = moveSpeed;
                 dashCoolCounter = dashCooldown;
             }
