@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
     {"left", false},
     {"dash", false},
     {"start", false},
+    {"belt", false},
     };
 
     public static float wireAmountLeft = 20;

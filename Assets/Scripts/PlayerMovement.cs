@@ -164,6 +164,7 @@ public class PlayerMovement : MonoBehaviour
             {"left", false},
             {"dash", false},
             {"start", false},
+            {"belt", false},
             };
             // }
         }
@@ -200,6 +201,7 @@ public class PlayerMovement : MonoBehaviour
             {"left", false},
             {"dash", false},
             {"start", false},
+            {"belt", false},
             };
         }
         else
